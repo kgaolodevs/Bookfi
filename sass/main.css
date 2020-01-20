@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-light_1);
+  font-family: "Open Sans", "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background: -webkit-gradient(linear, left top, right bottom, from(var(--color-tertiary)), to(var(--color-primary)));
+  background: linear-gradient(to right bottom, var(--color-tertiary), var(--color-primary));
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+:root {
+  --color-primary: #192965;
+  --color-secondary: #bbcfff;
+  --color-tertiary: #faafff;
+  --color-light_1: #f4f4f4;
+  --color-light_2: #eae9e9;
+  --color-light_3: #d4d7dd;
+  --color-dark_1: #525252;
+  --color-dark_2: #414141;
+  --color-dark_3: #313131;
+  --color-dark_4: #25242a;
+}
+/*# sourceMappingURL=main.css.map */
