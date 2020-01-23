@@ -57,10 +57,118 @@
 
       <div class="content">
         <nav class="sidebar">
-          Navigation
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="icons/icomoon/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Hotels</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use
+                    xlink:href="icons/icomoon/sprite.svg#icon-aircraft"
+                  ></use>
+                </svg>
+                <span>Flights</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="icons/icomoon/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Car Rentals</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="icons/icomoon/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="copyright">
+            &copy; 2020 By KgaoloDevs. All Rights Reserved
+          </div>
         </nav>
+
         <main class="hotel-view">
-          Hotel view
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="/img/hotel-1.jpg"
+                alt="hotel-1-pic"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="/img/hotel-2.jpg"
+                alt="hotel-2-pic"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="/img/hotel-3.jpg"
+                alt="hotel-3-pic"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">Hotel Indaba</h1>
+
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="icons/icomoon/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="icons/icomoon/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="icons/icomoon/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="icons/icomoon/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="icons/icomoon/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="icons/icomoon/sprite.svg#icon-pin"></use>
+              </svg>
+              <button class="btn-inline">
+                Sandton, Johannesburg
+              </button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.4</div>
+              <div class="overview__rating-count">580 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              Description
+            </div>
+
+            <div class="user-reviews">
+              User Reviews
+            </div>
+          </div>
         </main>
       </div>
     </div>

@@ -10,8 +10,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background: var(--color-light_1);
-  border-bottom: var(--color-light_3);
-  outline: red 1px solid;
+  border-bottom: 1.5px solid var(--color-light_3);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +27,6 @@
 }
 
 .hotel-view {
-  background: orangered;
-
+  height: 80rem;
   flex: 1; //fill up as much space as possible
 }

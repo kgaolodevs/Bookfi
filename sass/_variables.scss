@@ -15,5 +15,8 @@
   --color-dark_3: #313131;
   --color-dark_4: #25242a;
 
-  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --shadow-dark: 0 2.5rem 6rem rgba(0, 0, 0, 0.4);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.08);
+
+  --line: 1.5px solid var(--color-light_3);
 }
